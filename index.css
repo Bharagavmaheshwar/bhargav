@@ -1,0 +1,42 @@
+body{
+    background-color: blanchedalmond;
+}
+#NAME{
+    text-align: center;
+    color: darkcyan;
+
+}
+nav{
+    background-color:black;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+    
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+h3{
+    background-color: black;
+    color: aliceblue;
+    font-family: Helvetica;
+    text-align: center;
+}
+.ContactContainer{
+    background-color: coral;
+}
